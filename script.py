@@ -76,7 +76,6 @@ while(True):
         mid_list = mid_list[1:]
     else:
         break
-    print(upp_bd,lwr_bd,wait_time)
 
 end_pos = [-1,-1,-1]
 
@@ -89,4 +88,7 @@ def get_end_pos(upp,lwr,pos):
 for i in range(len(ele_pos)):
     end_pos[i] = get_end_pos(upp_bd[i],lwr_bd[i],ele_pos[i])
 print("Maximum wait time:", max(wait_time))
+# print("Upper Bound:",upp_bd)
+# print("Lower Bound:",lwr_bd)
+# print("Wait Times:",wait_time)
 print("End postitions of top, middle and bottom elevators are:", end_pos)
