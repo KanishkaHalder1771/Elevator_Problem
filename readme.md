@@ -18,3 +18,6 @@ In this way the program checks and compares if the maximum wait time is reduced 
 *Assumptions:
  - Elevators only take 1 unit time in moving from one floor to  higher or lower floor.
  - It doesn't take time for a user to get onto a elevator.
+
+ #Usage:
+- Run script.py
